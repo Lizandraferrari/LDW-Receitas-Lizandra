@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    font-family: 'Comic Neue' , cursive;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    max-height: 100vh;
+    margin: 0;
+    background-color: #FFE8FB;
+    overflow: hidden;
+    h1,h2,h3,h4{
+        color: #FF6CE7;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+
+}
+
+button{
+    background-color: #73E1FF;  
+    border-radius: 0.5em;
+    border-style: solid;
+    border-color: #FF0BD6;
+    padding: 0.6em;
+    color: #FF0BD6;
+    font-weight: bold;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #FFADF1;
+    border-bottom: double;
+    border-color: #73E1FF;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: bold;
+    img{
+        max-width: 10%;
+    }
+    a{
+        color: #FF0BD6;
+        margin-right: 4em;
+    }
+    a:hover{
+        color:#ad0c92
+    }
+
+}
+
+
+footer{
+    border-top: double;
+    border-color: #FF6CE7;
+    background-color: #73E1FF;
+    margin-top: auto;
+
+}
+
+.infoFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vw;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    color:#FF6CE7;
+    max-width: 50%;
+    h1{
+        text-align: start;
+}
+}
+.linksFooter{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 50vw;
+    margin: 1em;
+    justify-content: end;
+}
+
+.devFooter{
+    display: flex;
+    flex-direction: row;
+    background-color: #FF0BD6;
+    font-weight: bold;
+    justify-content: center;
+    padding: 2em;
+    a{
+        color: white;
+    }
+    a:hover{
+        color: #FFADF1
+    }
+}
+
+.card{
+    display: flex;
+    margin:2em;
+    color:#FF0BD6;
+    background-color: #FFADF1;
+    border: double;
+    border-radius:1rem;
+    border-color: #FF0BD6;
+}
+
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
