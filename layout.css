@@ -27,7 +27,10 @@ button{
     padding: 0.6em;
     color: #FF0BD6;
     font-weight: bold;
-    
+}
+button:hover{
+    background-color: #55d1f3;  
+
 }
 
 nav{
@@ -58,33 +61,48 @@ nav{
 
 
 footer{
+    display: flex;
+    padding: 2rem;
     border-top: double;
     border-color: #FF6CE7;
     background-color: #73E1FF;
-    margin-top: auto;
-
+    justify-content: space-between;
+    align-items: center;
+    color:#FF6CE7;
+    max-height: 50vh;
+    a{
+        color:#FF6CE7;
+        font-weight: bold;
+    }
+    a:hover{
+        color: #ad0c92
+    }
 }
 
 .infoFooter{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     width: 50vw;
     padding-left: 4rem;
     padding-right: 4rem;
     padding-top: 1rem;
-    color:#FF6CE7;
-    max-width: 50%;
+    max-width: 50vw;
     h1{
         text-align: start;
 }
 }
 .linksFooter{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 50vw;
     margin: 1em;
-    justify-content: end;
+    height: 30vh;
+    text-align: end;
+    justify-content: center;
+    margin-right: 3em;
+    gap: 1em;
+    flex-wrap: wrap;
+
 }
 
 .devFooter{
