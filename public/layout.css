@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    font-family: 'Comic Neue' , cursive;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    max-height: 100vh;
+    margin: 0;
+    background-color: #FFE8FB;
+    overflow: hidden;
+    h1,h2,h3,h4{
+        color: #FF6CE7;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+
+}
+
+button{
+    background-color: #73E1FF;  
+    border-radius: 0.5em;
+    border-style: solid;
+    border-color: #FF0BD6;
+    padding: 0.3em;
+    color: #FF0BD6;
+    font-weight: bold;
+    font-family: "Comic Neue" , cursive;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+button:hover{
+    background-color: #55d1f3;  
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #FFADF1;
+    border-bottom: double;
+    border-color: #73E1FF;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: bold;
+    img{
+        max-width: 10%;
+    }
+    a{
+        color: #FF0BD6;
+        margin-right: 4em;
+    }
+    a:hover{
+        color:#ad0c92
+    }
+
+}
+
+footer{
+    display: flex;
+    padding: 2rem;
+    border-top: double;
+    border-color: #FF6CE7;
+    background-color: #73E1FF;
+    justify-content: space-between;
+    align-items: center;
+    color:#FF6CE7;
+    max-height: 50vh;
+    a{
+        color:#FF6CE7;
+        font-weight: bold;
+    }
+    a:hover{
+        color: #ad0c92
+    }
+}
+
+.infoFooter{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    max-width: 50vw;
+    h1{
+        text-align: start;
+}
+}
+.linksFooter{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: 1em;
+    height: 30vh;
+    text-align: end;
+    justify-content: center;
+    margin-right: 3em;
+    gap: 1em;
+    flex-wrap: wrap;
+
+}
+
+.devFooter{
+    display: flex;
+    flex-direction: row;
+    background-color: #FF0BD6;
+    font-weight: bold;
+    justify-content: center;
+    padding: 2em;
+    
+    a{
+        color: white;
+    }
+    a:hover{
+        color: #FFADF1
+    }
+}
+
+.destaques{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.card{
+    display: flex;
+    margin:2em;
+    color:#FF0BD6;
+    background-color: #FFADF1;
+    border: double;
+    border-radius:1rem;
+    border-color: #FF0BD6;
+    max-width: 36vw;
+    img{
+        border-radius: 1em;
+        max-width: 15vw;
+    }
+}
+
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 3em;
+    font-weight: bold;
+}
