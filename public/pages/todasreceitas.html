@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../layout.css"></link>
-    <script defer src="../components.js"></script>
-    <title>Todas as Receitinhas</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../layout.css">
+  <script defer src="../components.js"></script>
+  <script src="../receitas.js"></script>
+  <title>Todas as Receitinhas</title>
 </head>
 <body>
-    <custom-nav></custom-nav>
+  <custom-nav></custom-nav>
+  <main>
+    <h1>Todas as receitas</h1>
+    <div class="receitas">
+        <!--cards-->
+    </div>
+  </main>
+  <custom-footer style="margin-top: auto;"></custom-footer>
 
-    <main>
-    </main>
-    
-    <custom-footer style = "margin-top: auto;"></custom-footer>
+  <template id="card-template">
+    <div class="card">
+      <img src="">
+      <div class="infoCard">
+        <p></p>
+        <button>Confira!</button>
+      </div>
+    </div>
+  </template>
 
 </body>
 </html>

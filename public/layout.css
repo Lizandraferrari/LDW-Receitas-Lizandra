@@ -8,7 +8,6 @@ body{
     max-height: 100vh;
     margin: 0;
     background-color: #FFE8FB;
-    overflow: hidden;
     h1,h2,h3,h4{
         color: #FF6CE7;
         text-align: center;
@@ -49,6 +48,7 @@ nav{
     padding-left: 2rem;
     padding-right: 2rem;
     font-weight: bold;
+    margin-bottom: 3em;
     img{
         max-width: 10%;
     }
@@ -72,6 +72,7 @@ footer{
     align-items: center;
     color:#FF6CE7;
     max-height: 50vh;
+    margin-top: 3em;
     a{
         color:#FF6CE7;
         font-weight: bold;
@@ -123,11 +124,12 @@ footer{
     }
 }
 
-.destaques{
+.receitas{
     display: flex;
     justify-content: space-evenly;
     margin-top: 2em;
-    margin-bottom: 5em;
+    flex-wrap: wrap;
+
 }
 
 .card{
@@ -145,6 +147,20 @@ footer{
     }
 }
 
+.separa{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3em;
+    padding-right: 3em;
+    
+    gap: 2em;
+    img{
+        max-width: 30%;
+    }
+    h2{
+        text-align: start;
+    }
+}
 .infoCard{
     display: flex;
     flex-direction: column;
