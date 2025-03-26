@@ -9,9 +9,13 @@ fetch("data.json")
 
       const img = cardClone.querySelector("img");
       const receita = cardClone.querySelector("p");
+      const botao = cardClone.querySelector("button");
 
       img.src = item.img;
       receita.textContent = item.nomeReceita;
+      botao.addEventListener("click", () => {
+        window.location.href = `/${item.tipo}/${item.slug}`;
+      });
 
       container.appendChild(cardClone);
     });

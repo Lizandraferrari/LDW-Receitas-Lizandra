@@ -32,7 +32,7 @@ button{
 }
 button:hover{
     background-color: #55d1f3;  
-
+    cursor:pointer;
 }
 
 nav{
@@ -131,7 +131,9 @@ footer{
     flex-wrap: wrap;
 
 }
-
+.terco{
+    width: 30%;
+}
 .card{
     display: flex;
     margin:2em;
@@ -155,7 +157,10 @@ footer{
     
     gap: 2em;
     img{
-        max-width: 30%;
+        max-width: 33%;
+        height: fit-content;
+        align-self: center;
+
     }
     h2{
         text-align: start;

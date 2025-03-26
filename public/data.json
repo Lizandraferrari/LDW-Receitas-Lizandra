@@ -1,27 +1,31 @@
 [
     {
-        "img": "./img/bolocenoura.png",
+        "slug": "bolo-de-cenoura-fofinho",
+        "img": "/img/bolocenoura.png",
         "nomeReceita": "Bolo de cenoura fofinho",
         "ingredientes": "Bolo\n2 cenouras descascadas e picadas grosseiramente\n1 xícara (chá) de Margarina\n3 ovos\n1½ xícara (chá) de açúcar\n2 xícaras (chá) de farinha de trigo\n1 colher (sopa) de fermento químico em pó\n\nCobertura\n3 colheres (sopa) de Margarina\n3 colheres (sopa) de açúcar\n2 colheres (sopa) de chocolate em pó solúvel\n½ xícara (chá) de leite",
-        "preparo":"Em um liquidificador, bata as cenouras, a margarina e os ovos;\nEm um recipiente, coloque o creme de cenouras e adicione o açúcar e a farinha peneirados e misture bem;\nJunte o fermento e misture um pouco mais;\nDespeje a massa em uma forma de furo no meio, untada e enfarinhada, e leve para assar em forno médio por, aproximadamente, 45 minutos.\n\nCobertura\nEm uma panela, coloque todos os ingredientes da cobertura e cozinhe, misturando continuamente, até que forme uma cobertura lisa;\nDesenforme o bolo e cubra com a cobertura. Sirva.",
+        "preparo": "Em um liquidificador, bata as cenouras, a margarina e os ovos;\nEm um recipiente, coloque o creme de cenouras e adicione o açúcar e a farinha peneirados e misture bem;\nJunte o fermento e misture um pouco mais;\nDespeje a massa em uma forma de furo no meio, untada e enfarinhada, e leve para assar em forno médio por, aproximadamente, 45 minutos.\n\nCobertura\nEm uma panela, coloque todos os ingredientes da cobertura e cozinhe, misturando continuamente, até que forme uma cobertura lisa;\nDesenforme o bolo e cubra com a cobertura. Sirva.",
         "tipo": "bolo"
     },
     {
-        "img": "./img/tortalimao.webp",
+        "slug": "torta-de-limao-com-tortinhas",
+        "img": "/img/tortalimao.webp",
         "nomeReceita": "Torta de limão com tortinhas",
         "ingredientes": "2 pacotes de bolacha de maisena\n5 colheres de sopa de manteiga\n1 pacote de bolacha tortinhas sabor limão\n2 latas de leite condensado\n2 latas de creme de leite\n1/2 copo de suco de limão\n1 caixa de gelatina sabor limão\n200 ml de chantilly\nRaspas de limão",        
         "preparo":  "Em um liquidificador, coloque as bolachas maisena e triture bem.\nTransfira para um recipiente, adicione a manteiga derretida e misture até formar uma farofa.\nForre uma forma de fundo falso com a farofa, coloque as bolachas tortinhas sabor limão nas laterais e reserve no congelador.\nEm um liquidificador, coloque o leite condensado, o creme de leite, o suco de limão, a gelatina e bata tudo muito bem.\nTransfira para a forma e decore com chantilly batido e as raspas de limão.\nLeve para gelar por pelo menos duas horas.",
         "tipo": "torta"
     },
     {
-        "img": "./img/bolomorango.jpg",
+        "slug": "naked-cake-de-merengue",
+        "img": "/img/bolomorango.jpg",
         "nomeReceita": "Naked Cake de Merengue",
         "ingredientes": "8 ovos\n3 xícaras de açúcar\n4 xícaras de farinha de trigo\n1 1/2 xícara de leite\n200g manteiga sem sal (em temperatura ambiente)\n2 colheres de sopa de pó Royal\n1 colher de chá de bicarbonato\npitada de sal\n1,2kg morangos fatiados (reservar 5 inteiros para decoração)\n500ml creme de leite fresco\n2 colheres sopa de açúcar\n40g mini suspiro\nfolhas de hortelã\n1 lata de guaraná",
         "preparo": "Bolo: untar e forrar o fundo e as laterais das formas com papel manteiga. Pré aquecer o forno a 170°C. Bater as gemas com açúcar até virar uma gemada esbranquiçada. Assim que estiver gemada esbranquiçada e fofa, adicionar a manteiga (em temperatura ambiente) aos poucos. Depois ir colocando a farinha alternando com o leite até a massa ficar uniforme. Adicionar o fermento, bicarbonato e sal. Mexer para incorporar. Reservar. Bater as claras em neve e misturar na massa delicadamente. Dividir a massa pronta nas 2 formas, alisar com uma espátula e levar ao forno até um palito sair limpo (aproximadamente 40 minutos). Quando pronto, retirar do forno e deixar esfriar.\n\nBater o creme de leite com as 2 colheres de açúcar em ponto de chantilly cremoso. Reservar.\n\nCortar a superfície do primeiro bolo para ficar com 5 cm de altura (guardar o bolo que sobrou para comer depois). Colocar este bolo no prato de servir. Regar com 3 colheres de sopa de guaraná. Colocar o chantilly batido, por cima os morangos e os suspiros amassados.\n\nCortar o outro bolo da mesma maneira, regar com o guaraná (pouco), cobrir com chantilly, os morangos fatiados por cima e os morangos inteiros reservados para decoração. Colocar também umas folhas de hortelã. Guardar na geladeira no máximo 1 hora e servir.",
         "tipo": "bolo"
     },
     {
-        "img": "./img/tortabanana.jpg",
+        "slug": "torta-de-banana-com-goiabada",
+        "img": "/img/tortabanana.jpg",
         "nomeReceita": "Torta de banana com goiabada",
         "ingredientes": "Massa:\n1 1/4 xícaras de farinha de trigo\n100g manteiga sem sal gelada cortada em pedaços pequenos\n1 ovo\n1 colher de sopa de açúcar\nPitada de sal\n\nTorta:\n4 bananas nanica cortadas em rodelas\n400g goiabada cremosa\nCanela misturado com açúcar (a gosto a quantidade)",
         "preparo": "Pré aquecer o forno a 180°C\nColocar a farinha de trigo em um bowl, a manteiga gelada em pedaços por cima, pitada de sal, o açúcar e misturar com a ponta dos dedos até formar uma farofa. Acrescentar o ovo e mexer até se tornar uma massa uniforme. Embrulhar em plástico filme e levar à geladeira por 1 hora.\nAbrir a massa, colocar na forma, furar com garfo o fundo, cobrir com papel manteiga e por cima, cobrir com feijões para servir de peso e levar ao forno por 12 minutos. Retirar os feijões, o papel manteiga e voltar ao forno por mais 10 minutos. Reservar.\nAssim que a massa amornar, cobrir o fundo com a goiabada cremosa e por cima da goiabada as rodelas de banana.\nPolvilhar com canela misturada com açúcar e levar ao forno por 15 minutos. Desligar o forno e deixar a torta por 10 minutos no forno (para a banana chegar no ponto).\nRetirar e servir em temperatura ambiente.",
